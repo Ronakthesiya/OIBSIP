@@ -1,0 +1,70 @@
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+button:focus {
+    outline: none;
+}
+
+button {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    padding: 12px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    padding: 50px;
+    margin: 2rem auto;
+    color: #fff;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+}
+
+#input {
+    border-radius: 5px;
+    height: 70px;
+    font-size: 30px;
+    color: black;
+    text-align: end;
+}
+
+#output {
+    font-size: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+table {
+    margin-top: 15px;
+}
+
+table tr td {
+    padding: 10px 12px;
+}
+
+table tr td button {
+    padding: 10px 15px;
+}
+
+table tr td p {
+    padding: 10px 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="loginForm">
+        <h3 id="title">Login</h3>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+
+        <button id="submitButton" type="button" onclick="submitForm()">Login</button>
+
+        <div>
+            <h5 onclick="toggleForm()">Sign Up</h5>
+        </div>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
